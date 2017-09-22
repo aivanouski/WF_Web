@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WishFinance</title>
-    <link rel="stylesheet" href="./styles/styles.css?v=1.0">
+    <link rel="stylesheet" href="./styles/styles.css?v=1.1">
     <script
             src="https://code.jquery.com/jquery-3.2.1.min.js?v=1.0"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -12,54 +12,135 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js?v=1.0"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1597786746958969');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1597786746958969&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-<script type="text/javascript">
-_linkedin_data_partner_id = "87104";
-</script><script type="text/javascript">
-(function(){var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})();
-</script>
-<noscript>
-<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=87104&fmt=gif" />
-</noscript>
-<!-- Twitter universal website tag code -->
-<script>
-!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-// Insert Twitter Pixel ID and Standard Event data below
-twq('init','ny4zu');
-twq('track','PageView');
-</script>
-<!-- End Twitter universal website tag code -->
-<!-- Global Site Tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-357825-9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)};
-  gtag('js', new Date());
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq)return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq)f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1597786746958969');
+        fbq('init', '1724867281143434');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=1597786746958969&ev=PageView&noscript=1"
+            /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <script type="text/javascript">
+        _linkedin_data_partner_id = "87104";
+    </script>
+    <script type="text/javascript">
+        (function () {
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript";
+            b.async = true;
+            b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+        })();
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none;" alt=""
+             src="https://dc.ads.linkedin.com/collect/?pid=87104&fmt=gif"/>
+    </noscript>
+    <!-- Twitter universal website tag code -->
+    <script>
+        !function (e, t, n, s, u, a) {
+            e.twq || (s = e.twq = function () {
+                s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+            }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+                    a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+        }(window, document, 'script');
+        // Insert Twitter Pixel ID and Standard Event data below
+        twq('init', 'ny5i8');
+        twq('track', 'PageView');
+    </script>
+    <!-- End Twitter universal website tag code -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  gtag('config', 'UA-357825-9');
-</script>
+        ga('create', 'UA-357825-9', 'auto', {allowLinker: true});
+        ga('require', 'ecommerce');
+        ga('require', 'displayfeatures');
+        ga('require', 'linker');
+        ga('send', 'pageview');
+    </script>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-357825-9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-357825-9');
+
+
+        /* HitCallback to open link in same window after tracker */
+
+
+        function handleOutboundLinkClicks(href, name) {
+            console.log('ga send: ' + name + ': ' + href);
+            ga('send', 'event', {
+                'eventCategory': 'click',
+                'eventAction': name,
+                'eventLabel': href,
+                'transport': 'beacon',
+                'hitCallbackTimeout' : 500,
+                'hitCallback': function () {
+                    document.location = href;
+                },
+                'hitCallbackFail' : function () {
+                    alert("Unable to send Google Analytics data");
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            $('a').on('click', function () {
+                if ($(this).attr('href') == '/WishFinanceWhitepaper.pdf') {
+                    fbq('track', 'WP');
+                    handleOutboundLinkClicks($(this).attr('href'), 'WP');
+                    return false;
+                }
+                if ($(this).attr('href') == '/WishFinanceOverview.pdf') {
+                    fbq('track', 'Overview');
+                    handleOutboundLinkClicks($(this).attr('href'), 'Overview');
+                    return false;
+                }
+                if ($(this).attr('href') == '/join') {
+                    fbq('track', 'Lead');
+                    handleOutboundLinkClicks($(this).attr('href'), 'Join');
+                    return false;
+                }
+            });
+
+            $('.social-icon a').on('click', function () {
+                handleOutboundLinkClicks($(this).attr('href'), 'SocialLinks');
+                return false;
+            });
+        });
+
+    </script>
 </head>
 <body id="body">
 <header class="main-header">
@@ -83,7 +164,7 @@ twq('track','PageView');
                 <li><a href="#team">Team</a></li>
                 <li><a href="#partners">Partners</a></li>
                 <li><a href="#press">Press</a></li>
-                <li><a href="#contacts">Join ICO</a></li>
+                <li><a href="/join">Join ICO</a></li>
             </ul>
         </nav>
     </div>
@@ -93,6 +174,7 @@ twq('track','PageView');
         <div class="hero-description-wrap">
             <div class="hero-description" data-aos="fade-right" data-aos-delay="200">
                 <h2>Become a shareholder</h2>
+
                 <p>Wish Finance has figured out how to solve one of the biggest problems for people that are involved in
                     cryptocurrency - actually spending the currency. Join the ICO and become a shareholder of the real
                     established lending business in Singapore.</p>
@@ -100,6 +182,7 @@ twq('track','PageView');
             <div class="circle-cards-wrap" data-aos="fade-left" data-aos-delay="400">
                 <div class="circle-text">
                     <h2 class="title">112</h2>
+
                     <p>Real SME’s loans already issued in 2017</p>
                 </div>
                 <img src="./assets/svg/circle-cards.svg" alt="" class="icon circle-cards">
@@ -107,8 +190,10 @@ twq('track','PageView');
         </div>
         <div class="hero-footer" data-aos="fade-up" data-aos-delay="600">
             <div class="hero-button">
-                <a class="btn btn-default" href="/WishFinanceWhitepaper.pdf">whitepaper</a>
-                <a class="btn btn-red" href="#subscribe">Join ico</a>
+                <a class="btn btn-default" href="/WishFinanceOverview.pdf">Overview</a>
+                <a class="btn btn-default" href="/WishFinanceWhitepaper.pdf">Whitepaper</a>
+
+                <a class="btn btn-red" href="/join">Join ico</a>
             </div>
             <ul class="social-icons">
                 <li class="social-icon">
@@ -172,7 +257,11 @@ twq('track','PageView');
                 <div class="col count-3" data-aos="fade-up" data-aos-delay="200">
                     <div class="content">
                         <h3>Fair-play business</h3>
-                        <p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p>
+
+                        <p>Wish Finance business model is designed to provide SMEs and especially merchants with short
+                            term funding they need to expand the business or use as a workflow capital in daily routine.
+                            We take maximum out of modern digital technologies to minimize risks of lending and making
+                            our contribution into cashless future.</p>
                     </div>
                 </div>
             </div>
@@ -180,13 +269,23 @@ twq('track','PageView');
                 <div class="col count-1" data-aos="fade-up">
                     <div class="content">
                         <h3>Designed to serve SMEs</h3>
-                        <p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender. It is fair for borrower, because borrower uses data he owns to get lower interest rate from us. It is fair for Wish Finance as we are managing our risks and building long term relationships with each borrower and it is fair for Funds who provide us with capital.</p>
+
+                        <p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay
+                            and other via POS terminals are able to get a loan from Wish Finance. We use real
+                            transactional data to understand how business is going and score our risks as a lender. It
+                            is fair for borrower, because borrower uses data he owns to get lower interest rate from us.
+                            It is fair for Wish Finance as we are managing our risks and building long term
+                            relationships with each borrower and it is fair for Funds who provide us with capital.</p>
                     </div>
                 </div>
                 <div class="col count-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="content">
                         <h3>Protected lending</h3>
-                        <p>As additional support for borrower’s peace of mind part of our risk management strategy is insurance from borrower’s potential bankruptcy. Every loan is insured in full so borrower could focus on its business and even in worst scenario Wish Finance will have its money back. </p>
+
+                        <p>As additional support for borrower’s peace of mind part of our risk management strategy is
+                            insurance from borrower’s potential bankruptcy. Every loan is insured in full so borrower
+                            could focus on its business and even in worst scenario Wish Finance will have its money
+                            back. </p>
                     </div>
                 </div>
             </div>
@@ -194,13 +293,23 @@ twq('track','PageView');
                 <div class="col count-2" data-aos="fade-up">
                     <div class="content">
                         <h3>Seamless repayments</h3>
-                        <p>With consent from the borrower we connect to acquirer who provided POS terminal to this SME with our APIs and deduct 2-5% of each payment borrower gets from its customers. Our loans repaid in seamless manner.</p>
+
+                        <p>With consent from the borrower we connect to acquirer who provided POS terminal to this SME
+                            with our APIs and deduct 2-5% of each payment borrower gets from its customers. Our loans
+                            repaid in seamless manner.</p>
                     </div>
                 </div>
                 <div class="col count-5" data-aos="fade-up" data-aos-delay="200">
                     <div class="content">
                         <h3>24/7 borrowers support</h3>
-                        <p>For most of merchants using a borrowed capital is a part of the business routine and in most cases they are unable to get a loan as fast as needed. As a result they a losing many opportunities to grow. Wish Finance is a not a bank, we don’t have to work with millions of individuals accounts and we don’t have dozens of financial products. Main product of Wish Finance is a business loan for SME and we built a lean business structure powered by modern IT to process hundreds of loan application in minutes and issue loans in 24 hours of less.</p>
+
+                        <p>For most of merchants using a borrowed capital is a part of the business routine and in most
+                            cases they are unable to get a loan as fast as needed. As a result they a losing many
+                            opportunities to grow. Wish Finance is a not a bank, we don’t have to work with millions of
+                            individuals accounts and we don’t have dozens of financial products. Main product of Wish
+                            Finance is a business loan for SME and we built a lean business structure powered by modern
+                            IT to process hundreds of loan application in minutes and issue loans in 24 hours of
+                            less.</p>
                     </div>
                 </div>
             </div>
@@ -210,13 +319,14 @@ twq('track','PageView');
         <div class="container flex">
             <a href="/WishFinanceWhitepaper.pdf">Whitepaper</a>
             <a href="/WishFinanceOverview.pdf">Business Overview</a>
-            
+
         </div>
     </div>
 </section>
 <section class="best-of-both-worlds black-bg section-wrap">
     <div class="container">
         <h2>Best of both worlds</h2>
+
         <div class="img-wrapper">
             <button type="button" data-toggle="modal" data-target="#best-of-modal" class="show-zoom">
                 <svg class="icon ic-search">
@@ -253,7 +363,7 @@ twq('track','PageView');
                 <span>Tendermint</span>
             </li>
         </ul>
-        <a href="#subscribe" class="btn btn-red btn-white-border">Join ico</a>
+        <a href="/join" class="btn btn-red btn-white-border">Join ico</a>
     </div>
 </section>
 <section id="innovations" class="section-about section-wrap">
@@ -286,6 +396,7 @@ twq('track','PageView');
         <div class="section-quote">
             <div class="col" data-aos="fade-right">
                 <h2>The first ICO ever:</h2>
+
                 <p>tokens can be converted in company’s shares</p>
             </div>
             <blockquote data-aos="fade-left" data-aos-delay="200"><span>Meet the first ever real ICO where tokens isn't just a digital asset but could be converted into real world assets</span>
@@ -307,53 +418,79 @@ twq('track','PageView');
             <ul class="finance-innovations-row flex">
                 <li data-aos="fade-up">
                     <span class="icon wish-1"></span>
+
                     <h3>Real data scoring</h3>
+
                     <p>We use real financial transactions data to scrore each of our SME borrowers to lower our business
                         risks and provide fair interests rate.</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="200">
                     <span class="icon wish-2"></span>
+
                     <h3>Fast lending</h3>
-                    <p>In Wish Finance most of operations are automated, this way of business helps us to issue loans as fast as 24 hours maximum.</p>
+
+                    <p>In Wish Finance most of operations are automated, this way of business helps us to issue loans as
+                        fast as 24 hours maximum.</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="400">
                     <span class="icon wish-3"></span>
+
                     <h3>Insured loans</h3>
-                    <p>Each issued loan is insured from borrower's bankruptcy so our investors are happy, we are happy, borrowers are happy.</p>
+
+                    <p>Each issued loan is insured from borrower's bankruptcy so our investors are happy, we are happy,
+                        borrowers are happy.</p>
                 </li>
             </ul>
             <ul class="finance-innovations-row flex">
                 <li data-aos="fade-up">
                     <span class="icon wish-4"></span>
+
                     <h3>Cashless economy</h3>
-                    <p>We lend only to merchants who accept cashless payments, so each issued loan makes our world easier and more effective.</p>
+
+                    <p>We lend only to merchants who accept cashless payments, so each issued loan makes our world
+                        easier and more effective.</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="200">
                     <span class="icon wish-5"></span>
+
                     <h3>Globally scalable</h3>
-                    <p>Wish Finance has business model shich could be scaled into cashless economies like South Korea, Denmark, Sweden or Canada.</p>
+
+                    <p>Wish Finance has business model shich could be scaled into cashless economies like South Korea,
+                        Denmark, Sweden or Canada.</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="400">
                     <span class="icon wish-6"></span>
+
                     <h3>Made for SME</h3>
-                    <p>Our product is created to serve most vulnerable and financially underserved types of businesses - small and medium companies.</p>
+
+                    <p>Our product is created to serve most vulnerable and financially underserved types of businesses -
+                        small and medium companies.</p>
                 </li>
             </ul>
             <ul class="finance-innovations-row flex">
                 <li data-aos="fade-up">
                     <span class="icon wish-7"></span>
+
                     <h3>Transparent portfolio</h3>
-                    <p>We are revolutionising online lending world by opening our lending portfolio for governments, partners and blockchain community over the world.</p>
+
+                    <p>We are revolutionising online lending world by opening our lending portfolio for governments,
+                        partners and blockchain community over the world.</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="200">
                     <span class="icon wish-8"></span>
+
                     <h3>Social impact</h3>
-                    <p>SMEs are the basis of every country's economy. They are creating most of jobs and paying a lot of taxes. Wish Finance is supporting them.</p>
+
+                    <p>SMEs are the basis of every country's economy. They are creating most of jobs and paying a lot of
+                        taxes. Wish Finance is supporting them.</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="400">
                     <span class="icon wish-9"></span>
+
                     <h3>Disruptive ICO</h3>
-                    <p>Core idea of Initial Coin Offering of Wish Finance is not just selling the digital tokens, but selling tokens which could be converted to company's shares.</p>
+
+                    <p>Core idea of Initial Coin Offering of Wish Finance is not just selling the digital tokens, but
+                        selling tokens which could be converted to company's shares.</p>
                 </li>
             </ul>
         </div>
@@ -362,7 +499,9 @@ twq('track','PageView');
 <section id="audit" class="section-crypto-audit section-wrap">
     <div class="container">
         <h2 data-aos="fade-up">Cryptographic audit</h2>
+
         <h3 class="hidden-title">Crypto<br>graphic<br>audit</h3>
+
         <div class="description" data-aos="fade-up">
             <p>One of the modern practises today is the Cryptographic Audit, is a set of monitoring tools that allows
                 any
@@ -379,6 +518,7 @@ twq('track','PageView');
                 <div class="col count-1" data-aos="fade-up">
                     <div class="content">
                         <h3>Portfolio reporting</h3>
+
                         <p>Wish Finance will store in blockchain whole portfolio and its performance anonymised from any
                             personal borrowers data. Our transparency policy will help the borrowers, funds, current and
                             potential investors in many ways including predictability and accountability of their
@@ -388,6 +528,7 @@ twq('track','PageView');
                 <div class="col count-3" data-aos="fade-up" data-aos-delay="200">
                     <div class="content">
                         <h3>Proof of reserves</h3>
+
                         <p>We will give preference to using exchanges that have Proof of Solvency (PoS) implemented;
                             cold storage reserves can be audited, as in TaaS, Poloniex and Kraken.</p>
                     </div>
@@ -397,6 +538,7 @@ twq('track','PageView');
                 <div class="col count-2" data-aos="fade-up">
                     <div class="content">
                         <h3>Chief blockchain officer</h3>
+
                         <p>Wish Finance plans to have a new C-level position in the world of finances - Chief Blockchain
                             Officer - who will be responsible for auditing and reporting our own use of blockchain
                             technologies and push forward general financial technologies to clear and effective
@@ -406,6 +548,7 @@ twq('track','PageView');
                 <div class="col count-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="content">
                         <h3>Regular blockchain snapshots</h3>
+
                         <p>To have proof that nobody mismanaged data between audits, a special smart contract will be
                             developed to hold permanent daily snapshots of audit data. The contract will be supplied
                             with a convenient contract explorer.</p>
@@ -422,7 +565,9 @@ twq('track','PageView');
             <div class="col">
                 <div class="col-item" data-aos="fade-up">
                     <span class="icon audit-2"></span>
+
                     <h3>First alternative lender with direct access to POS payments</h3>
+
                     <p>Wish Finance will store in blockchain whole portfolio and its performance anonymised from any
                         personal borrowers data. Our transparency policy will help the borrowers, funds, current and
                         potential investors in many ways including predictability and accountability of their
@@ -432,13 +577,17 @@ twq('track','PageView');
             <div class="col">
                 <div class="col-item" data-aos="fade-up">
                     <span class="icon audit-1"></span>
+
                     <h3>First lender with transparent portfolio performance on blockchain</h3>
+
                     <p>We will give preference to using exchanges that have Proof of Solvency (PoS) implemented; cold
                         storage reserves can be audited, as in TaaS, Poloniex and Kraken.</p>
                 </div>
                 <div class="col-item" data-aos="fade-up">
                     <span class="icon audit-3"></span>
+
                     <h3>Fully assured loans</h3>
+
                     <p>To have proof that nobody mismanaged data between audits, a special smart contract will be
                         developed
                         to hold permanent daily snapshots of audit data. The contract will be supplied with a convenient
@@ -449,7 +598,8 @@ twq('track','PageView');
     </div>
 </section>
 <section id="roadmap-sec" class="section-roadmap section-wrap">
-    <a href="#subscribe" class="btn btn-red btn-white-border-big btn-join">Join ico</a>
+    <a href="/join" class="btn btn-red btn-white-border-big btn-join">Join ico</a>
+
     <div class="container">
         <h2 class="hidden-title">Roadmap</h2>
     </div>
@@ -457,50 +607,62 @@ twq('track','PageView');
         <ul class="slidee">
             <li class="roadmap-item">
                 <span class="date">February<sup>2016</sup></span>
+
                 <p>ASEAN markets research</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">April<sup>2016</sup></span>
+
                 <p>Concept development</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">July<sup>2016</sup></span>
+
                 <p>Company set up in Singapore</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">September<sup>2016</sup></span>
+
                 <p>Minimum Viable Product (MVP) ready</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">October<sup>2016</sup></span>
+
                 <p>Server software, scoring and API layer ready </p>
             </li>
             <li class="roadmap-item">
                 <span class="date">February<sup>2017</sup></span>
+
                 <p>Pilot SME lending success with 0% default rate</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">July<sup>2017</sup></span>
+
                 <p>Whitepaper publication</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">October<sup>2017</sup></span>
+
                 <p>Initial coin offering</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">November<sup>2017</sup></span>
+
                 <p>Connection to POS in Singapore and Hong Kong</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">December<sup>2017</sup></span>
+
                 <p>First loans issued in Singapore</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">February<sup>2018</sup></span>
+
                 <p>First loans issued in Hong Kong</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">Later<sup>2019</sup></span>
+
                 <p>South Korea, Benelux, Scandinavia</p>
             </li>
         </ul>
@@ -513,6 +675,7 @@ twq('track','PageView');
 <section id="ico" class="section-ico-details section-wrap">
     <div class="container ico-wrapper">
         <h2>ICO details</h2>
+
         <h2 class="hidden-title"><span>Ico</span> details</h2>
 
         <div class="ico-table flex">
@@ -523,7 +686,9 @@ twq('track','PageView');
                 </div>
                 <div class="ico-table-content">
                     <h3>What does this token represent?</h3>
-                    <p>WISH tokens executed by an Ethereum could be at any time converted to stocks of Wish Finance company registered in Singapore. One token could be converted to one stock.</p>
+
+                    <p>WISH tokens executed by an Ethereum could be at any time converted to stocks of Wish Finance
+                        company registered in Singapore. One token could be converted to one stock.</p>
                 </div>
             </div>
             <div class="col">
@@ -533,7 +698,10 @@ twq('track','PageView');
                 </div>
                 <div class="ico-table-content">
                     <h3>Payout <br> structure</h3>
-                    <p>A smart contract lets token owners convert WISH tokens to company shares in correlation 1 to 1. Conversion could be made at any time at the initiative of token owner after KYC. Converted tokens intuitively will have its share of company profits as dividends.</p>
+
+                    <p>A smart contract lets token owners convert WISH tokens to company shares in correlation 1 to 1.
+                        Conversion could be made at any time at the initiative of token owner after KYC. Converted
+                        tokens intuitively will have its share of company profits as dividends.</p>
                 </div>
             </div>
         </div>
@@ -557,36 +725,43 @@ twq('track','PageView');
         <ul class="roadmap-total flex">
             <li class="roadmap-item">
                 <span class="date">Late 2017</span>
+
                 <div class="price">1 000 000$</div>
                 <p>Start lending in Singapore</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">Early 2018</span>
+
                 <div class="price">2 000 000$</div>
                 <p>Start lending in Hong Kong</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">Late 2018</span>
+
                 <div class="price">3 000 000$</div>
                 <p>Start lending in South Korea</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">Early 2019</span>
+
                 <div class="price">4 000 000$</div>
                 <p>Start lending in Benelux (Belgium, the Netherlands and Luxembourg)</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">Late 2019</span>
+
                 <div class="price">5 000 000$</div>
                 <p>Start lending in Scandinavia (Denmark, Norway and Sweden)</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">Early 2020</span>
+
                 <div class="price">8 000 000$</div>
                 <p>Creation of the WishBank, bank for the SMEs</p>
             </li>
             <li class="roadmap-item">
                 <span class="date">Early 2020</span>
+
                 <div class="price">10 000 000$</div>
                 <p>Creation of the Wish Reliance, insurance for SMEs</p>
             </li>
@@ -594,228 +769,231 @@ twq('track','PageView');
     </div>
 </section>
 <section id="team" class="section-team section-wrap">
-    <div class="container">
-        <h2 class="hidden-title">Team</h2>
-        <ul class="team-list flex">
-            <li data-aos="fade-up">
-                <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
-                   title="<div class='title-name'>Eugene Green</div><span class='job-position'>Chief Executive Officer</span>"
-                   data-placement="auto top"
-                   data-content="<p>Eugene is an entrepreneur and angel investor with more than 15 years of experience in data science, e-commerce, consulting and financial technologies. He has been the founder of three startups since 2000, all of which he successfully sold. His consulting clients over the last 10 years have included Aliexpress, Friendster, Zalora, Lazada, The Pizza Company, EFES, Wrigley's, Heineken, Domino’s Pizza, PepsiCo and IKEA. More recently, Eugene has directed his efforts towards fintech, financial inclusion, blockchain, new SME scoring technologies and open banking.</p>">
-                    <img src="./assets/images/user-1.png" alt="" class="user-img">
-                    <h3>Eugene <br> Green <sup>Chief Executive Officer</sup></h3>
+<div class="container">
+<h2 class="hidden-title">Team</h2>
+<ul class="team-list flex">
+    <li data-aos="fade-up">
+        <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
+           title="<div class='title-name'>Eugene Green</div><span class='job-position'>Chief Executive Officer</span>"
+           data-placement="auto top"
+           data-content="<p>Eugene is an entrepreneur and angel investor with more than 15 years of experience in data science, e-commerce, consulting and financial technologies. He has been the founder of three startups since 2000, all of which he successfully sold. His consulting clients over the last 10 years have included Aliexpress, Friendster, Zalora, Lazada, The Pizza Company, EFES, Wrigley's, Heineken, Domino’s Pizza, PepsiCo and IKEA. More recently, Eugene has directed his efforts towards fintech, financial inclusion, blockchain, new SME scoring technologies and open banking.</p>">
+            <img src="./assets/images/user-1.png" alt="" class="user-img">
+
+            <h3>Eugene <br> Green <sup>Chief Executive Officer</sup></h3>
+        </a>
+        <ul class="social-icons">
+            <!-- <li><a href="#" class="social-icon">
+                <svg class="icon ic-facebook">
+                    <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                </svg>
+            </a></li>-->
+            <li>
+                <a href="https://www.linkedin.com/in/eugenegreen/" class="social-icon">
+                    <svg class="icon ic-linkedin">
+                        <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                    </svg>
                 </a>
-                <ul class="social-icons">
-                    <!-- <li><a href="#" class="social-icon">
-                        <svg class="icon ic-facebook">
-                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
-                        </svg>
-                    </a></li>-->
-                    <li>
-                        <a href="https://www.linkedin.com/in/eugenegreen/" class="social-icon">
-                            <svg class="icon ic-linkedin">
-                                <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li data-aos="fade-up" data-aos-delay="200">
-                <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
-                   title="<div class='title-name'>Michael Elgort</div><span class='job-position'>Chief Compliance Officer</span>"
-                   data-placement="auto top"
-                   data-content="<p>Michael is a lawyer and advocate from Israel. As a lawyer he has specialised in M&A and deal structuring in the financial, healthcare, commodities and telecommunications industries. Recent experience includes project management and launch expansion management in Israel and the Asia-Pacific region. Since receiving an MBA from INSEAD (2015) Michael has obtained extensive experience as a financial and anti-crisis manager in Singapore.</p>">
-                    <img src="./assets/images/user-2.png" alt="" class="user-img">
-                    <h3>Michael <br> Elgort <sup>Chief Compliance Officer</sup></h3>
-                </a>
-                <ul class="social-icons">
-                    <!-- <li><a href="#" class="social-icon">
-                        <svg class="icon ic-facebook">
-                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
-                        </svg>
-                    </a></li>-->
-                    <li>
-                        <a href="https://www.linkedin.com/in/michael-elgort-5763732b/" class="social-icon">
-                            <svg class="icon ic-linkedin">
-                                <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li data-aos="fade-up" data-aos-delay="400">
-                <a role="button" data-toggle="popover" data-trigger="hover click" data-html="true"
-                   title="<div class='title-name'>Ruslan Gavinov</div><span class='job-position'>Chief Technology Officer</span>"
-                   data-placement="auto top"
-                   data-content="<p>Ruslan has over 15 years of experience in Banking IT. Previously, he was involved in support and development for numerous IT projects. He worked as a teamer lead and tech lead in international payment services and banks. Ruslan knows how financial technologies should be built, how stable and secure infrastructure should be, and how to deliver products and provide a predictable service.</p>">
-                    <img src="./assets/images/user-3.png" alt="" class="user-img">
-                    <h3>Ruslan <br> Gavinov <sup>Chief Technology Officer</sup></h3>
-                </a>
-                <ul class="social-icons">
-                    <!-- <li><a href="#" class="social-icon">
-                        <svg class="icon ic-facebook">
-                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
-                        </svg>
-                    </a></li> -->
-                    <li>
-                        <a href="https://www.linkedin.com/in/ruslan-gavinov-b8a2774b/" class="social-icon">
-                            <svg class="icon ic-linkedin">
-                                <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
             </li>
         </ul>
-        
-        <!-- ADVISORS start
-        <h2 data-aos="fade-up">Advisors</h2>
-        <ul class="team-list flex">
-            <li data-aos="fade-up">
-                <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
-                   title="<div class='title-name'>Eugene Green</div><span class='job-position'>Chief Technology Officer</span>"
-                   data-placement="auto top"
-                   data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
-                    <img src="./assets/images/user-1.png" alt="" class="user-img">
-                    <h3>Eugene <br> Green <sup>Chief Executive Officer</sup></h3>
+    </li>
+    <li data-aos="fade-up" data-aos-delay="200">
+        <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
+           title="<div class='title-name'>Michael Elgort</div><span class='job-position'>Chief Compliance Officer</span>"
+           data-placement="auto top"
+           data-content="<p>Michael is a lawyer and advocate from Israel. As a lawyer he has specialised in M&A and deal structuring in the financial, healthcare, commodities and telecommunications industries. Recent experience includes project management and launch expansion management in Israel and the Asia-Pacific region. Since receiving an MBA from INSEAD (2015) Michael has obtained extensive experience as a financial and anti-crisis manager in Singapore.</p>">
+            <img src="./assets/images/user-2.png" alt="" class="user-img">
+
+            <h3>Michael <br> Elgort <sup>Chief Compliance Officer</sup></h3>
+        </a>
+        <ul class="social-icons">
+            <!-- <li><a href="#" class="social-icon">
+                <svg class="icon ic-facebook">
+                    <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                </svg>
+            </a></li>-->
+            <li>
+                <a href="https://www.linkedin.com/in/michael-elgort-5763732b/" class="social-icon">
+                    <svg class="icon ic-linkedin">
+                        <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                    </svg>
                 </a>
-                <ul class="social-icons">
-                    <li><a href="#" class="social-icon">
-                        <svg class="icon ic-facebook">
-                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
-                        </svg>
-                    </a></li>
-                    <li>
-                        <a href="#" class="social-icon">
-                            <svg class="icon ic-linkedin">
-                                <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
             </li>
-            <li data-aos="fade-up" data-aos-delay="200">
-                <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
-                   title="<div class='title-name'>Michael Elgort</div><span class='job-position'>Chief Technology Officer</span>"
-                   data-placement="auto top"
-                   data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
-                    <img src="./assets/images/user-2.png" alt="" class="user-img">
-                    <h3>Michael <br> Elgort <sup>Chief Compliance Officer</sup></h3>
+        </ul>
+    </li>
+    <li data-aos="fade-up" data-aos-delay="400">
+        <a role="button" data-toggle="popover" data-trigger="hover click" data-html="true"
+           title="<div class='title-name'>Ruslan Gavinov</div><span class='job-position'>Chief Technology Officer</span>"
+           data-placement="auto top"
+           data-content="<p>Ruslan has over 15 years of experience in Banking IT. Previously, he was involved in support and development for numerous IT projects. He worked as a teamer lead and tech lead in international payment services and banks. Ruslan knows how financial technologies should be built, how stable and secure infrastructure should be, and how to deliver products and provide a predictable service.</p>">
+            <img src="./assets/images/user-3.png" alt="" class="user-img">
+
+            <h3>Ruslan <br> Gavinov <sup>Chief Technology Officer</sup></h3>
+        </a>
+        <ul class="social-icons">
+            <!-- <li><a href="#" class="social-icon">
+                <svg class="icon ic-facebook">
+                    <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                </svg>
+            </a></li> -->
+            <li>
+                <a href="https://www.linkedin.com/in/ruslan-gavinov-b8a2774b/" class="social-icon">
+                    <svg class="icon ic-linkedin">
+                        <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                    </svg>
                 </a>
-                <ul class="social-icons">
-                    <li><a href="#" class="social-icon">
-                        <svg class="icon ic-facebook">
-                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
-                        </svg>
-                    </a></li>
-                    <li>
-                        <a href="#" class="social-icon">
-                            <svg class="icon ic-linkedin">
-                                <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
             </li>
-            <li data-aos="fade-up" data-aos-delay="400">
-                <a role="button" data-toggle="popover" data-trigger="hover click" data-html="true"
-                   title="<div class='title-name'>Ruslan Gavinov</div><span class='job-position'>Chief Technology Officer</span>"
-                   data-placement="auto top"
-                   data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
-                    <img src="./assets/images/user-3.png" alt="" class="user-img">
-                    <h3>Ruslan <br> Gavinov <sup>Chief Technology Officer</sup></h3>
+        </ul>
+    </li>
+</ul>
+
+<!-- ADVISORS start
+<h2 data-aos="fade-up">Advisors</h2>
+<ul class="team-list flex">
+    <li data-aos="fade-up">
+        <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
+           title="<div class='title-name'>Eugene Green</div><span class='job-position'>Chief Technology Officer</span>"
+           data-placement="auto top"
+           data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
+            <img src="./assets/images/user-1.png" alt="" class="user-img">
+            <h3>Eugene <br> Green <sup>Chief Executive Officer</sup></h3>
+        </a>
+        <ul class="social-icons">
+            <li><a href="#" class="social-icon">
+                <svg class="icon ic-facebook">
+                    <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                </svg>
+            </a></li>
+            <li>
+                <a href="#" class="social-icon">
+                    <svg class="icon ic-linkedin">
+                        <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                    </svg>
                 </a>
-                <ul class="social-icons">
-                    <li><a href="#" class="social-icon">
-                        <svg class="icon ic-facebook">
-                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
-                        </svg>
-                    </a></li>
-                    <li>
-                        <a href="#" class="social-icon">
-                            <svg class="icon ic-linkedin">
-                                <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
             </li>
-        </ul> ADVISORS end -->
-        
-         <!-- ESCROW start
-        <h2 data-aos="fade-up">Escrow</h2>
-        <ul class="team-list flex">
-            <li data-aos="fade-up">
-                <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
-                   title="<div class='title-name'>Eugene Green</div><span class='job-position'>Chief Technology Officer</span>"
-                   data-placement="auto top"
-                   data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
-                    <img src="./assets/images/user-1.png" alt="" class="user-img">
-                    <h3>Eugene <br> Green <sup>Chief Executive Officer</sup></h3>
+        </ul>
+    </li>
+    <li data-aos="fade-up" data-aos-delay="200">
+        <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
+           title="<div class='title-name'>Michael Elgort</div><span class='job-position'>Chief Technology Officer</span>"
+           data-placement="auto top"
+           data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
+            <img src="./assets/images/user-2.png" alt="" class="user-img">
+            <h3>Michael <br> Elgort <sup>Chief Compliance Officer</sup></h3>
+        </a>
+        <ul class="social-icons">
+            <li><a href="#" class="social-icon">
+                <svg class="icon ic-facebook">
+                    <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                </svg>
+            </a></li>
+            <li>
+                <a href="#" class="social-icon">
+                    <svg class="icon ic-linkedin">
+                        <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                    </svg>
                 </a>
-                <ul class="social-icons">
-                    <li><a href="#" class="social-icon">
-                        <svg class="icon ic-facebook">
-                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
-                        </svg>
-                    </a></li>
-                    <li>
-                        <a href="#" class="social-icon">
-                            <svg class="icon ic-linkedin">
-                                <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
             </li>
-            <li data-aos="fade-up" data-aos-delay="200">
-                <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
-                   title="<div class='title-name'>Michael Elgort</div><span class='job-position'>Chief Technology Officer</span>"
-                   data-placement="auto top"
-                   data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
-                    <img src="./assets/images/user-2.png" alt="" class="user-img">
-                    <h3>Michael <br> Elgort <sup>Chief Compliance Officer</sup></h3>
+        </ul>
+    </li>
+    <li data-aos="fade-up" data-aos-delay="400">
+        <a role="button" data-toggle="popover" data-trigger="hover click" data-html="true"
+           title="<div class='title-name'>Ruslan Gavinov</div><span class='job-position'>Chief Technology Officer</span>"
+           data-placement="auto top"
+           data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
+            <img src="./assets/images/user-3.png" alt="" class="user-img">
+            <h3>Ruslan <br> Gavinov <sup>Chief Technology Officer</sup></h3>
+        </a>
+        <ul class="social-icons">
+            <li><a href="#" class="social-icon">
+                <svg class="icon ic-facebook">
+                    <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                </svg>
+            </a></li>
+            <li>
+                <a href="#" class="social-icon">
+                    <svg class="icon ic-linkedin">
+                        <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                    </svg>
                 </a>
-                <ul class="social-icons">
-                    <li><a href="#" class="social-icon">
-                        <svg class="icon ic-facebook">
-                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
-                        </svg>
-                    </a></li>
-                    <li>
-                        <a href="#" class="social-icon">
-                            <svg class="icon ic-linkedin">
-                                <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
             </li>
-            <li data-aos="fade-up" data-aos-delay="400">
-                <a role="button" data-toggle="popover" data-trigger="hover click" data-html="true"
-                   title="<div class='title-name'>Ruslan Gavinov</div><span class='job-position'>Chief Technology Officer</span>"
-                   data-placement="auto top"
-                   data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
-                    <img src="./assets/images/user-3.png" alt="" class="user-img">
-                    <h3>Ruslan <br> Gavinov <sup>Chief Technology Officer</sup></h3>
-                </a>
-                <ul class="social-icons">
-                    <li><a href="#" class="social-icon">
-                        <svg class="icon ic-facebook">
-                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
-                        </svg>
-                    </a></li>
-                    <li>
-                        <a href="#" class="social-icon">
-                            <svg class="icon ic-linkedin">
-                                <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul> ESCROW end -->
-    </div>
+        </ul>
+    </li>
+</ul> ADVISORS end -->
+
+<!-- ESCROW start
+<h2 data-aos="fade-up">Escrow</h2>
+<ul class="team-list flex">
+   <li data-aos="fade-up">
+       <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
+          title="<div class='title-name'>Eugene Green</div><span class='job-position'>Chief Technology Officer</span>"
+          data-placement="auto top"
+          data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
+           <img src="./assets/images/user-1.png" alt="" class="user-img">
+           <h3>Eugene <br> Green <sup>Chief Executive Officer</sup></h3>
+       </a>
+       <ul class="social-icons">
+           <li><a href="#" class="social-icon">
+               <svg class="icon ic-facebook">
+                   <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+               </svg>
+           </a></li>
+           <li>
+               <a href="#" class="social-icon">
+                   <svg class="icon ic-linkedin">
+                       <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                   </svg>
+               </a>
+           </li>
+       </ul>
+   </li>
+   <li data-aos="fade-up" data-aos-delay="200">
+       <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
+          title="<div class='title-name'>Michael Elgort</div><span class='job-position'>Chief Technology Officer</span>"
+          data-placement="auto top"
+          data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
+           <img src="./assets/images/user-2.png" alt="" class="user-img">
+           <h3>Michael <br> Elgort <sup>Chief Compliance Officer</sup></h3>
+       </a>
+       <ul class="social-icons">
+           <li><a href="#" class="social-icon">
+               <svg class="icon ic-facebook">
+                   <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+               </svg>
+           </a></li>
+           <li>
+               <a href="#" class="social-icon">
+                   <svg class="icon ic-linkedin">
+                       <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                   </svg>
+               </a>
+           </li>
+       </ul>
+   </li>
+   <li data-aos="fade-up" data-aos-delay="400">
+       <a role="button" data-toggle="popover" data-trigger="hover click" data-html="true"
+          title="<div class='title-name'>Ruslan Gavinov</div><span class='job-position'>Chief Technology Officer</span>"
+          data-placement="auto top"
+          data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
+           <img src="./assets/images/user-3.png" alt="" class="user-img">
+           <h3>Ruslan <br> Gavinov <sup>Chief Technology Officer</sup></h3>
+       </a>
+       <ul class="social-icons">
+           <li><a href="#" class="social-icon">
+               <svg class="icon ic-facebook">
+                   <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+               </svg>
+           </a></li>
+           <li>
+               <a href="#" class="social-icon">
+                   <svg class="icon ic-linkedin">
+                       <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                   </svg>
+               </a>
+           </li>
+       </ul>
+   </li>
+</ul> ESCROW end -->
+</div>
 </section>
 <!-- PARTNERS start   
 <section id="partners" class="section-partners section-wrap">
@@ -834,7 +1012,7 @@ twq('track','PageView');
         </ul>
     </div>
 </section> PARTNERS end-->
-    
+
 <!-- PRESS start   
 <section id="press" class="section-press section-wrap">
     <div class="container">
@@ -900,12 +1078,13 @@ twq('track','PageView');
         <a href="#" class="btn btn-lg btn-red btn-join">Join ico</a>
     </div>
 </section> PRESS end -->
-    
-    
+
+
 <section id="contacts" class="section-subscribe section-wrap">
     <h2 class="hidden-title">Subscribe</h2>
+
     <div class="container">
-    <header>
+        <header>
             <h1 class="logo">wishfinance</h1>
             <nav class="navigation">
                 <ul>
@@ -920,27 +1099,30 @@ twq('track','PageView');
                     <li><a href="#contacts">Get in touch</a></li>
                 </ul>
             </nav>
-    </header>
+        </header>
     </div>
     <div class="container">
         <div class="subscribe-title">
             <h2>Join ICO</h2>
-            <p>Subscribe to our newsletter to be always updated on the most current news about Wish Finance ICO. Or drop us your email at <a href="mailto:ico@wishfinance.com" style="color: white;">ico@wishfinance.com</a></p>
+
+            <p>Subscribe to our newsletter to be always updated on the most current news about Wish Finance ICO. Or drop
+                us your email at <a href="mailto:ico@wishfinance.com" style="color: white;">ico@wishfinance.com</a></p>
         </div>
-                <form action="https://wishfinance.us16.list-manage.com/subscribe/post" method="POST">
-                    <input type="hidden" name="u" value="2f2ff1a5803d2dffe99588455">
-                    <input type="hidden" name="id" value="a9dfe58a6c">
-                            <div id="results"></div>
-                            <div class="input-wrap">
-                                <input name="MERGE0" id="MERGE0" type="email" placeholder="Your email">
-                                <button type="submit" class="btn btn-default btn-grey btn-lg" id="submit">send</button>
-                            </div>
-                        </form>
+        <form action="https://wishfinance.us16.list-manage.com/subscribe/post" method="POST">
+            <input type="hidden" name="u" value="2f2ff1a5803d2dffe99588455">
+            <input type="hidden" name="id" value="a9dfe58a6c">
+
+            <div id="results"></div>
+            <div class="input-wrap">
+                <input name="MERGE0" id="MERGE0" type="email" placeholder="Your email">
+                <button type="submit" class="btn btn-default btn-grey btn-lg" id="submit">send</button>
+            </div>
+        </form>
         <small class="copyright">
             <span>— &copy; 2016-2017 Wish Finance. All rights reserved. <!-- | Privacy Policy--></span>
             <span>Country of incorporation: Singapore</span>
             <ul class="social-links">
-                
+
                 <li>
                     <a href="https://www.facebook.com/wishfinance/">
                         <svg class="icon">
