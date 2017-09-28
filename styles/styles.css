@@ -24,9 +24,7 @@ footer, header, hgroup, menu, nav, section {
   display: block; }
 
 body {
-  line-height: 1;
-    overflow-x: hidden;
-}
+  line-height: 1; }
 
 ol, ul {
   list-style: none; }
@@ -1751,8 +1749,8 @@ section:focus {
         .hero-section .hero-footer .social-icons .social-icon:last-child {
           margin-right: 0; }
         .hero-section .hero-footer .social-icons .social-icon a svg {
-          height: 28px;
-          width: 28px;
+          height: 38px;
+          width: 38px;
           opacity: .8;
           transition: opacity ease .2s;
           will-change: opacity;
@@ -2474,8 +2472,8 @@ section:focus {
       .section-team .team-list li .social-icon:hover .icon {
         opacity: .5; }
       .section-team .team-list li .social-icon .icon {
-        height: 18px;
-        width: 18px; }
+        height: 28px;
+        width: 28px; }
   .section-team .social-icons {
     display: flex; }
     .section-team .social-icons li:first-child {
