@@ -220,7 +220,9 @@ $(document).ready(function () {
   $('[data-toggle="popover"]').popover();
 
   $('.slick-slider').slick({
-    dots: true
+    dots: true,
+    arrows: false,
+    infinite: false,
   });
 
 // Select all links with hashes
