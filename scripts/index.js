@@ -139,10 +139,12 @@ $(document).ready(function () {
     menuItems = topMenu.find("a"),
     // Anchors corresponding to menu items
     scrollItems = menuItems.map(function () {
-      var item = $($(this).attr("href"));
-      if (item.length) {
-        return item;
-      }
+        if ($(this).attr("href").indexOf('/user/login') != 0) {
+            var item = $($(this).attr("href"));
+            if (item.length) {
+                return item;
+            }
+        }
     });
 
 
