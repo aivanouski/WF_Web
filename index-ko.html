@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WishFinance</title>
+    <link rel="stylesheet" href="./styles/styles.css?v=1.0">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js?v=1.0"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js?v=1.0"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+</head>
+<body id="body">
+<header class="main-header">
+    <div class="container header-wrap">
+        <button class="hamburger-menu">
+            <svg class="icon ic-hamburger-menu">
+                <use xlink:href="./assets/svg/symbols.svg#hamburger-menu"/>
+            </svg>
+            <svg class="icon ic-cross">
+                <use xlink:href="./assets/svg/symbols.svg#cross"/>
+            </svg>
+        </button>
+        <h1 class="logo">wishfinance</h1>
+        <nav class="navigation">
+            <ul id="mainNav">
+                <li><a href="#features">특징</a></li>
+                <li><a href="#innovations">혁신</a></li>
+                <li><a href="#audit">암호 심사</a></li>
+                <li><a href="#roadmap-sec">로드맵</a></li>
+                <li><a href="#ico">ICO 세부 정보</a></li>
+                <li><a href="#team">팀</a></li>
+                <li><a href="#partners">파트너</a></li>
+                <li><a href="#press">언론</a></li>
+                <li><a href="#contacts">ICO 가입</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section class="hero-section section-wrap">
+    <div class="container">
+        <div class="hero-description-wrap">
+            <div class="hero-description" data-aos="fade-right" data-aos-delay="200">
+                <h2>주주되기</h2>
+                <p>Wish Finance는 실제 통화를 지출하는
+                    암호화 화폐에 연루된 개인들의 가장 큰
+                    문제점 중 하나를 해결하는 방법을
+                    모색했습니다. ICO에 가입하고
+                    싱가포르에 실제 설립된 대출 기업의
+                    주주가 되십시오.</p>
+            </div>
+            <div class="circle-cards-wrap" data-aos="fade-left" data-aos-delay="400">
+                <div class="circle-text">
+                    <h2 class="title">112</h2>
+                    <p>2017년 실제 중소기업 대출이 이루어짐</p>
+                </div>
+                <img src="./assets/svg/circle-cards.svg" alt="" class="icon circle-cards">
+            </div>
+        </div>
+        <div class="hero-footer" data-aos="fade-up" data-aos-delay="600">
+            <div class="hero-button">
+                <a class="btn btn-default" href="/WishFinanceWhitepaper.pdf">백서</a>
+                <a class="btn btn-red" href="#subscribe">ICO 가입</a>
+            </div>
+            <ul class="social-icons">
+                <li class="social-icon">
+                    <a href="https://www.facebook.com/wishfinance/">
+                        <svg class="icon circle-cards">
+                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-icon">
+                    <a href="https://www.linkedin.com/company-beta/13372532/">
+                        <svg class="icon circle-cards">
+                            <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-icon">
+                    <a href="https://medium.com/@WishFinanceCom">
+                        <svg class="icon circle-cards">
+                            <use xlink:href="./assets/svg/symbols.svg#social-medium"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-icon">
+                    <a href="https://twitter.com/WishFinanceCom">
+                        <svg class="icon circle-cards">
+                            <use xlink:href="./assets/svg/symbols.svg#social-twitter"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-icon">
+                    <a href="https://t.me/wishfinance">
+                        <svg class="icon">
+                            <use xlink:href="./assets/svg/symbols.svg#social-telegram"/>
+                        </svg>
+                    </a>
+                </li>
+                <!-- <li class="social-icon">
+                    <a href="#">
+                        <svg class="icon circle-cards">
+                            <use xlink:href="./assets/svg/symbols.svg#social-bitcoin"/>
+                        </svg>
+                    </a>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    <video class="video-preview" autoplay playsinline muted loop poster="./assets/video/poster.jpg">
+        <source src="./assets/video/wishfinance_video.webm" type="video/webm">
+        <source src="./assets/video/wishfinance_video.mp4" type="video/mp4">
+        I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+    </video>
+</section>
+<section id="features" class="features dark-font section-wrap">
+    <div class="container">
+        <div class="two-columns counter-list">
+            <div class="cols">
+                <div class="col no-counter" data-aos="fade-up">
+                    <h2>고유한<br class="hidden-xs"> 비즈니스</h2>
+                </div>
+                <div class="col count-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="content">
+                        <h3>페어 플레이 비즈니스</h3>
+                        <p>Wish Finance 비즈니스 모델은
+                            중소기업과 특히 상인들에게 사업을
+                            확장하거나 일상 생활에서 유동성
+                            자본으로 사용하는 데 필요한 단기
+                            자금을 제공하도록 고안되었습니다. 최신
+                            디지털 기술을 최대한 활용하여 대출
+                            위험을 최소화하고 현금이 필요 없는
+                            미래에 기여합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cols">
+                <div class="col count-1" data-aos="fade-up">
+                    <div class="content">
+                        <h3>중소기업을 지원하도록 설계됨</h3>
+                        <p>은행 카드, Apple Pay, Android Pay 및
+                            기타 POS 단말기를 통해 무현금 지불
+                            방식으로 비용을 지급 받고 있는
+                            중소기업만이 Wish Finance로부터
+                            대출을 받을 수 있습니다. 실제 거래
+                            데이터를 사용하여 비즈니스가 어떻게
+                            진행되고 있는지 파악하고 대출
+                            기관으로서 위험을 평가합니다. 차용인이
+                            더 낮은 이자율을 얻기 위해 자신의
+                            데이터를 사용하기 때문에 차용자에게
+                            공정하다고 볼 수 있습니다. 위험을
+                            관리하고 개별 차용인과의 장기적인
+                            관계를 구축하고 있으므로 Wish
+                            Finance와 자본금을 제공하는 펀드에도
+                            공정하다고 볼 수 있습니다.</p>
+                    </div>
+                </div>
+                <div class="col count-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="content">
+                        <h3>보호되는 대출</h3>
+                        <p>차용인이 안도감을 느낄 수 있도록
+                            추가로 지원하는 당사의 위험 관리 전략
+                            중 하나는 차용인의 잠재적 파산을
+                            보장하는 보험입니다. 대출은 모두
+                            보험에 가입되어 있으므로 차용인은
+                            비즈니스에 주력할 수 있으며 최악의
+                            시나리오가 발생하더라도 Wish
+                            Finance에서는 돈을 되돌려 줄 것입니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cols">
+                <div class="col count-2" data-aos="fade-up">
+                    <div class="content">
+                        <h3>원활한 상환</h3>
+                        <p>당사는 차용인의 동의 하에 API를 통해
+                            POS 단말기를 중소기업에 제공한
+                            인수자와 연계하여 차용인이
+                            고객으로부터 받은 각 지불금의 2-5 %를
+                            차감합니다. 대출은 원활한 방식으로
+                            상환됩니다.</p>
+                    </div>
+                </div>
+                <div class="col count-5" data-aos="fade-up" data-aos-delay="200">
+                    <div class="content">
+                        <h3>차용인 항시 지원</h3>
+                        <p>대부분의 상인들은 차용한 자본금을 일상
+                            생활의 유동 자금으로 사용하며 대부분의
+                            경우 필요한 만큼 빠르게 대출을 받을 수
+                            없습니다. 결과, 성장할 수 있는 다양한
+                            기회를 상실합니다. Wish Finance는
+                            은행이 아니며 수백만 개의 개인 계좌와
+                            수십 개의 재정 기관의 상품을 가지고
+                            사업을 영위하지 않습니다. Wish
+                            Finance의 주요 상품은 중소기업을 위한
+                            기업 대출이며 몇 분 이내에 수백 개의
+                            대출 신청서를 처리하고 24시간 이내에
+                            대출 서류를 발급하기 위해 최신 IT의
+                            지원을 받아 린 비즈니스 구조를
+                            구축했습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="features-buttons">
+        <div class="container flex">
+            <a href="/WishFinanceWhitepaper.pdf">백서</a>
+            <a href="/WishFinanceOverview.pdf">비즈니스 개요</a>
+
+        </div>
+    </div>
+</section>
+<section class="best-of-both-worlds black-bg section-wrap">
+    <div class="container">
+        <h2>각각의 장점</h2>
+        <div class="img-wrapper">
+            <button type="button" data-toggle="modal" data-target="#best-of-modal" class="show-zoom">
+                <svg class="icon ic-search">
+                    <use xlink:href="./assets/svg/symbols.svg#search"/>
+                </svg>
+            </button>
+            <img src="assets/images/best-of.png" alt="" class="img-responsive best-of-img">
+        </div>
+        <hr>
+        <h2>내장형 기술</h2>
+        <ul class="flex list-logos">
+            <li>
+                <img src="assets/images/python-logo-generic.png" alt="">
+                <span>Python</span>
+            </li>
+            <li>
+                <img src="assets/images/amazon-logo.png" alt="">
+                <span>Amazon AWS</span>
+            </li>
+            <li>
+                <img src="assets/images/etherum-logo.png" alt="">
+                <span>Ethereum</span>
+            </li>
+            <li>
+                <img src="assets/images/apple-xcode-logo.png" alt="">
+                <span>Apple xcode</span>
+            </li>
+            <li>
+                <img src="assets/images/postgre-logo.png" alt="">
+                <span>Postgresql</span>
+            </li>
+            <li>
+                <img src="assets/images/tendermint-logo.png" alt="">
+                <span>Tendermint</span>
+            </li>
+        </ul>
+        <a href="#subscribe" class="btn btn-red btn-white-border">ICO 가입</a>
+    </div>
+</section>
+<section id="innovations" class="section-about section-wrap">
+    <div class="container">
+        <h2 class="hidden-title">about</h2>
+        <ul class="about-list flex">
+            <li data-aos="fade-up">
+                <div class="title">
+                    24<sup>시간</sup>
+                </div>
+                <p>온라인 중소기업의 자동 심사 및 당일
+                    대출 환영</p>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="200">
+                <div class="title">50 000<sup>SMEs</sup>
+                </div>
+                <p>싱가포르 및 홍콩 소규모 사업 주체들이
+                    충분한 서비스를 받고 있지 않음</p>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="400">
+                <div class="title">112<sup>Loans</sup>
+                </div>
+                <p>2016 및 2017년 싱가포르의 실제
+                    중소기업에서 입증된 비즈니스</p>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="600">
+                <div class="title">6<sup>억 달러</sup>
+                </div>
+                <p>예상되는 소비자 및 중소기업 대출
+                    시장은6억 달러에서 3조 달러로 성장할
+                    것으로 예상됨</p>
+            </li>
+        </ul>
+
+        <div class="section-quote">
+            <div class="col" data-aos="fade-right">
+                <h2>최초 ICO:</h2>
+                <p>토큰을 회사 주식으로 전환 가능</p>
+            </div>
+            <blockquote data-aos="fade-left" data-aos-delay="200"><span>토큰이 디지털 자산이되고 실제 자산으로
+전환될 수 있는 최초의 실제 ICO를
+만나보십시오.</span>
+            </blockquote>
+        </div>
+
+        <div class="thunderbolt">
+            <div class="player" data-aos="fade-right">
+                <img src="./assets/images/thunderbolt.png" class="thunderbolt-img img-responsive" alt="">
+                <button class="play" data-toggle="modal" data-target="#ytplayer-modal"></button>
+            </div>
+            <div class="description" data-aos="fade-left" data-aos-delay="200">
+                <h2>Wish Finance란 무엇인가?</h2>
+            </div>
+        </div>
+
+        <div class="finance-innovations">
+            <h2 data-aos="fade-up">Wish Finance 혁신</h2>
+            <ul class="finance-innovations-row flex">
+                <li data-aos="fade-up">
+                    <span class="icon wish-1"></span>
+                    <h3>실제 데이터 평가</h3>
+                    <p>실제 금융 거래 데이터를 사용하여 개별
+                        중소기업 차용인을 평가하여 비즈니스
+                        위험을 낮추고 공정한 이자율을
+                        제공합니다.</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="200">
+                    <span class="icon wish-2"></span>
+                    <h3>신속한 대출</h3>
+                    <p>Wish Finance에서는 대부분의 업무가
+                        자동화되어 있으므로 이러한 사업 방식을
+                        통해 최대 24시간 만큼 빠른 시간 내에
+                        대출을 받을 수 있습니다.</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="400">
+                    <span class="icon wish-3"></span>
+                    <h3>보험 적용 대출</h3>
+                    <p>개별적으로 발행된 대출 서류는 차용인의
+                        파산에 대해 보장되므로 투자자, 당사,
+                        차용인 모두가 행복을 누릴 수 있습니다.</p>
+                </li>
+            </ul>
+            <ul class="finance-innovations-row flex">
+                <li data-aos="fade-up">
+                    <span class="icon wish-4"></span>
+                    <h3>현금이 필요 없는 경제</h3>
+                    <p>카드 결제에 동의하는 상공인에게만
+                        대출해주므로 각각 발행된 대출이 대출
+                        시스템을 쉽고 보다 효율적으로
+                        만듭니다.</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="200">
+                    <span class="icon wish-5"></span>
+                    <h3>전세계 확장 가능성</h3>
+                    <p>Wish Finance는 한국, 덴마크, 스웨덴
+                        또는 캐나다와 같은 현금이 필요 없는
+                        경제로 확장될 수 있는 비즈니스 모델을
+                        가지고 있습니다.</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="400">
+                    <span class="icon wish-6"></span>
+                    <h3>중소기업을 위해 만들어짐</h3>
+                    <p>당사 상품은 가장 취약하고 재정적으로
+                        서비스를 충분히 받고 있지 않은 사업
+                        주체 즉, 중소기업들을 지원하기 위해
+                        만들어졌습니다.</p>
+                </li>
+            </ul>
+            <ul class="finance-innovations-row flex">
+                <li data-aos="fade-up">
+                    <span class="icon wish-7"></span>
+                    <h3>투명한 포트폴리오</h3>
+                    <p>당사는 전세계 정부, 파트너 및 블록체인
+                        커뮤니티를 위한 대출 포트폴리오를
+                        개설함으로써 온라인 대출 세계에 혁신을
+                        불러일으키고 있습니다.</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="200">
+                    <span class="icon wish-8"></span>
+                    <h3>사회적 영향력</h3>
+                    <p>중소기업은 모든 국가 경제의
+                        근간입니다. 중소기업들은 대부분의
+                        일자리를 창출하고 많은 세금을
+                        납부합니다. Wish Finance는
+                        중소기업들을 지원하고 있습니다.</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="400">
+                    <span class="icon wish-9"></span>
+                    <h3>분단성 ICO</h3>
+                    <p>Wish Finance의 초기 코인을 제공하기
+                        위한 핵심 개념은 디지털 토큰을 판매할
+                        뿐만 아니라 회사의 주식으로 전환할 수
+                        있는 토큰을 판매하는 데 있습니다.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section id="audit" class="section-crypto-audit section-wrap">
+    <div class="container">
+        <h2 data-aos="fade-up">암호 심사</h2>
+        <h3 class="hidden-title">암호 심사</h3>
+        <div class="description" data-aos="fade-up">
+            <p>표준 관행 중 하나는 모니터링 도구
+                세트인 암호 심사이며 이를 통해
+                일반인들도 계약을 쉽게 검증할 수
+                있습니다. Wish Finance의 경우 대출
+                이력, 포트폴리오 잔금 및 실적을 확인할
+                수 있습니다. 블록체인 프로젝트에서
+                자금 흐름에 대한 높은 보안 기준을
+                유지하기 위해 CA 도구를 구축하고
+                있습니다. 이는 투명성 목표를 달성하기
+                위한 방법입니다.</p>
+        </div>
+        <div class="two-columns counter-list">
+            <div class="cols">
+                <div class="col count-1" data-aos="fade-up">
+                    <div class="content">
+                        <h3>포트폴리오 보고</h3>
+                        <p>Wish Finance는 모든 개인 포트폴리오
+                            데이터를 익명으로 처리하여 전체
+                            포트폴리오 및 실적을 블록 체인에
+                            저장합니다. 투자의 예측 가능성과
+                            책임성을 비롯한 투명성 정책은 차용인,
+                            펀드, 현재 및 잠재 투자자를 다양한
+                            방법으로 지원할 것입니다.</p>
+                    </div>
+                </div>
+                <div class="col count-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="content">
+                        <h3>예약 증명</h3>
+                        <p>당사는 지불 능력 증명(PoS) 조치를
+                            이행하고 있는 거래소를 더욱
+                            선호합니다. TaaS, Poloniex 및 Kraken의
+                            경우와 마찬가지로 CSR(cold storage
+                            reserve)을 심사할 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cols">
+                <div class="col count-2" data-aos="fade-up">
+                    <div class="content">
+                        <h3>수석 블록체인 책임자</h3>
+                        <p>Wish Finance는 재무 세계에서 블록체인
+                            기술 사용에 대한 심사 및보고를
+                            담당하고 일반 금융 기술을 명확하고
+                            효과적인 미래에 적용하는 새로운 C
+                            레벨의 지위(최고 블록체인 책임자)를
+                            확보할 계획입니다.</p>
+                    </div>
+                </div>
+                <div class="col count-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="content">
+                        <h3>일반 블록체인 스냅샷</h3>
+                        <p>어느 누구도 심사 사이에 데이터를 잘못
+                            관리하지 않았다는 사실을 증명하기 위해
+                            심사 데이터의 영구 스냅샷을 보관할
+                            특수한 스마트 계약이 개발됩니다. 이
+                            스마트 계약은 편리한 계약 탐색기가
+                            함께 제공됩니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="section-crypto-sub section-wrap">
+    <div class="container">
+        <div class="crypto-sub-row flex">
+            <div class="col">
+                <div class="col-item" data-aos="fade-up">
+                    <span class="icon audit-2"></span>
+                    <h3>POS 결제를 직접 이용하는 최초의 대체
+                        대출 기관</h3>
+                    <p>Wish Finance는 모든 개인 포트폴리오
+                        데이터를 익명으로 처리하여 전체
+                        포트폴리오 및 실적을 블록 체인에
+                        저장합니다. 투자의 예측 가능성과
+                        책임성을 비롯한 투명성 정책은 차용인,
+                        펀드, 현재 및 잠재 투자자를 다양한
+                        방법으로 지원할 것입니다.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col-item" data-aos="fade-up">
+                    <span class="icon audit-1"></span>
+                    <h3>블록체인에 투명한 포트폴리오 실적을
+                        제공하는 최초의 대출 기관</h3>
+                    <p>당사는 지불 능력 증명(PoS) 조치를
+                        이행하고 있는 거래소를 더욱
+                        선호합니다. TaaS, Poloniex 및 Kraken의
+                        경우와 마찬가지로 CSR(cold storage
+                        reserve)을 심사할 수 있습니다.</p>
+                </div>
+                <div class="col-item" data-aos="fade-up">
+                    <span class="icon audit-3"></span>
+                    <h3>완전히 보장된 대출</h3>
+                    <p>어느 누구도 심사 사이에 데이터를 잘못
+                        관리하지 않았다는 사실을 증명하기 위해
+                        심사 데이터의 영구 스냅샷을 보관할
+                        특수한 스마트 계약이 개발됩니다. 이
+                        스마트 계약은 편리한 계약 탐색기가
+                        함께 제공됩니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="roadmap-sec" class="section-roadmap section-wrap">
+    <a href="#subscribe" class="btn btn-red btn-white-border-big btn-join">ICO 가입</a>
+    <div class="container">
+        <h2 class="hidden-title">로드맵</h2>
+    </div>
+    <div class="frame" id="roadmap">
+        <ul class="slidee">
+            <li class="roadmap-item">
+                <span class="date">4월<sup>2016년</sup></span>
+                <p>개념 개발</p>
+            </li>
+            <li class="roadmap-item">
+                <span class="date">7월<sup>2016년</sup></span>
+                <p>싱가포르에 회사 설립</p>
+            </li>
+            <li class="roadmap-item">
+                <span class="date">9월<sup>2016년</sup></span>
+                <p>최소 기능 상품(MVP) 준비</p>
+            </li>
+            <li class="roadmap-item">
+                <span class="date">9월<sup>2016년</sup></span>
+                <p>서버 소프트웨어 및 API 계층 준비</p>
+            </li>
+            <li class="roadmap-item">
+                <span class="date">1월<sup>2017년</sup></span>
+                <p>평가 모델 준비</p>
+            </li>
+            <li class="roadmap-item">
+                <span class="date">2월<sup>2017년</sup></span>
+                <p>싱가포르에서 파일럿 대출 프로젝트 시작</p>
+            </li>
+            <li class="roadmap-item">
+                <span class="date">5월<sup>2017년</sup></span>
+                <p>파일럿 대출 프로젝트 성공적 완료</p>
+            </li>
+            <li class="roadmap-item">
+                <span class="date">7월<sup>2017년</sup></span>
+                <p>백서 발행</p>
+            </li>
+            <li class="roadmap-item">
+                <span class="date">9월<sup>2017년</sup></span>
+                <p>초기 코인 제공</p>
+            </li>
+            <li class="roadmap-item">
+                <span class="date">10월<sup>2017년</sup></span>
+                <p>싱가포르에서 POS와 연계</p>
+            </li>
+            <li class="roadmap-item">
+                <span class="date">12월<sup>2017년</sup></span>
+                <p>싱가포르에서 대출 시작</p>
+            </li>
+            <li class="roadmap-item">
+                <span class="date">2월<sup>2018년</sup></span>
+                <p>홍콩에서 대출 시작</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="scrollbar" id="scrollbar">
+        <div class="handle btn btn-red"></div>
+    </div>
+</section>
+<section id="ico" class="section-ico-details section-wrap">
+    <div class="container ico-wrapper">
+        <h2>ICO 세부 정보</h2>
+        <h2 class="hidden-title"><span>ICO</span> 세부 정보</h2>
+
+        <div class="ico-table flex">
+            <div class="col">
+                <div class="ico-table-head">
+                    <span>토큰 이름:</span>
+                    <h4>WISH</h4>
+                </div>
+                <div class="ico-table-content">
+                    <h3>이 토큰이 의미하는 바는 무엇입니까?</h3>
+                    <p>Ethereum에 의해 실행된 Wish 토큰은
+                        언제든지 싱가포르에 등록된 Wish
+                        Finance 회사의 주식으로 전환할 수
+                        있습니다. 하나의 토큰을 하나의
+                        주식으로 전환할 수 있습니다.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="ico-table-head">
+                    <span>ICO 기간:</span>
+                    <h4>2017년 9월 10일 - 2017년 12월 30일</h4>
+                </div>
+                <div class="ico-table-content">
+                    <h3>지불<br> 구조</h3>
+                    <p>토큰 소유자는 스마트 계약(smart
+                        contract)을 통해 Wish 토큰을 1:1 비율로
+                        클래스 B 주식으로 전환할 수 있습니다.
+                        토큰 소유자가 전환을 개시하는 시점에서
+                        언제든지 전환할 수 있습니다. 전환된
+                        토큰은 배당금인 회사 수익의 일부로
+                        간주됩니다.</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="ico-subtotal flex">
+            <div class="col total-supply">
+                <span>전체 제공 수:</span>
+                <h4>5,000,000개 토큰</h4>
+            </div>
+            <div class="col price-per-token">
+                <span>토큰당 가격</span>
+                <h4>미화 1달러</h4>
+            </div>
+            <div class="col comments">
+                <p>ICO 동안 매매되지 않은 토큰은 소각
+                    처리됩니다. Wish Finance는 자체 토큰을
+                    거래하거나 소유하지 않습니다.</p>
+            </div>
+        </div>
+        <ul class="roadmap-total flex">
+            <li class="roadmap-item">
+                <span class="date">2017년 말</span>
+                <div class="price">1 000 000$</div>
+                <p>싱가포르에서 대출 시작</p>
+            </li>
+            <li class="roadmap-item">
+                <span class="date">2018년 초</span>
+                <div class="price">2 000 000$</div>
+                <p>홍콩에서 대출 시작</p>
+            </li>
+            <li class="roadmap-item">
+                <span class="date">2018년 말</span>
+                <div class="price">3 000 000$</div>
+                <p>한국에서 대출 시작</p>
+            </li>
+            <li class="roadmap-item">
+                <span class="date">2019년 초</span>
+                <div class="price">4 000 000$</div>
+                <p>베네룩스(벨기에, 네덜란드,
+                    룩셈부르크)에서 대출 시작</p>
+            </li>
+            <li class="roadmap-item">
+                <span class="date">2019년 말</span>
+                <div class="price">5 000 000$</div>
+                <p>스칸디나반도(덴마크, 노르웨이 및
+                    스웨덴)에서 대출 시작</p>
+            </li>
+        </ul>
+    </div>
+</section>
+<section id="team" class="section-team section-wrap">
+    <div class="container">
+        <h2 class="hidden-title">팀</h2>
+        <ul class="team-list flex">
+            <li data-aos="fade-up">
+                <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
+                   title="<div class='title-name'>Eugene Green</div><span class='job-position'>Chief Executive Officer</span>"
+                   data-placement="auto top"
+                   data-content="<p>Eugene is an entrepreneur and angel investor with more than 15 years of experience in data science, e-commerce, consulting and financial technologies. He has been the founder of three startups since 2000, all of which he successfully sold. His consulting clients over the last 10 years have included Aliexpress, Friendster, Zalora, Lazada, The Pizza Company, EFES, Wrigley's, Heineken, Domino’s Pizza, PepsiCo and IKEA. More recently, Eugene has directed his efforts towards fintech, financial inclusion, blockchain, new SME scoring technologies and open banking.</p>">
+                    <img src="./assets/images/user-1.png" alt="" class="user-img">
+                    <h3>유진 그린<br>(Eugene Green) <sup>최고경영자</sup></h3>
+                </a>
+                <ul class="social-icons">
+                    <!-- <li><a href="#" class="social-icon">
+                        <svg class="icon ic-facebook">
+                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                        </svg>
+                    </a></li>-->
+                    <li>
+                        <a href="https://www.linkedin.com/in/eugenegreen/" class="social-icon">
+                            <svg class="icon ic-linkedin">
+                                <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="200">
+                <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
+                   title="<div class='title-name'>Michael Elgort</div><span class='job-position'>Chief Compliance Officer</span>"
+                   data-placement="auto top"
+                   data-content="<p>Michael is a lawyer and advocate from Israel. As a lawyer he has specialised in M&A and deal structuring in the financial, healthcare, commodities and telecommunications industries. Recent experience includes project management and launch expansion management in Israel and the Asia-Pacific region. Since receiving an MBA from INSEAD (2015) Michael has obtained extensive experience as a financial and anti-crisis manager in Singapore.</p>">
+                    <img src="./assets/images/user-2.png" alt="" class="user-img">
+                    <h3>마이클 엘고르트<br>(Michael Elgort) <sup>최고 준법 책임자(CCO: CHIEF
+                        COMPLIANCE OFFICER)</sup></h3>
+                </a>
+                <ul class="social-icons">
+                    <!-- <li><a href="#" class="social-icon">
+                        <svg class="icon ic-facebook">
+                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                        </svg>
+                    </a></li>-->
+                    <li>
+                        <a href="https://www.linkedin.com/in/michael-elgort-5763732b/" class="social-icon">
+                            <svg class="icon ic-linkedin">
+                                <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="400">
+                <a role="button" data-toggle="popover" data-trigger="hover click" data-html="true"
+                   title="<div class='title-name'>Ruslan Gavinov</div><span class='job-position'>Chief Technology Officer</span>"
+                   data-placement="auto top"
+                   data-content="<p>Ruslan has over 15 years of experience in Banking IT. Previously, he was involved in support and development for numerous IT projects. He worked as a teamer lead and tech lead in international payment services and banks. Ruslan knows how financial technologies should be built, how stable and secure infrastructure should be, and how to deliver products and provide a predictable service.</p>">
+                    <img src="./assets/images/user-3.png" alt="" class="user-img">
+                    <h3>루슬란 개비노프<br>(Ruslan Gavinov) <sup>최고 기술 책임자(CTO: CHIEF
+                        TECHNOLOGY OFFICER)</sup></h3>
+                </a>
+                <ul class="social-icons">
+                    <!-- <li><a href="#" class="social-icon">
+                        <svg class="icon ic-facebook">
+                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                        </svg>
+                    </a></li> -->
+                    <li>
+                        <a href="https://www.linkedin.com/in/ruslan-gavinov-b8a2774b/" class="social-icon">
+                            <svg class="icon ic-linkedin">
+                                <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- ADVISORS start
+        <h2 data-aos="fade-up">Advisors</h2>
+        <ul class="team-list flex">
+            <li data-aos="fade-up">
+                <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
+                   title="<div class='title-name'>Eugene Green</div><span class='job-position'>Chief Technology Officer</span>"
+                   data-placement="auto top"
+                   data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
+                    <img src="./assets/images/user-1.png" alt="" class="user-img">
+                    <h3>Eugene <br> Green <sup>Chief Executive Officer</sup></h3>
+                </a>
+                <ul class="social-icons">
+                    <li><a href="#" class="social-icon">
+                        <svg class="icon ic-facebook">
+                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                        </svg>
+                    </a></li>
+                    <li>
+                        <a href="#" class="social-icon">
+                            <svg class="icon ic-linkedin">
+                                <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="200">
+                <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
+                   title="<div class='title-name'>Michael Elgort</div><span class='job-position'>Chief Technology Officer</span>"
+                   data-placement="auto top"
+                   data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
+                    <img src="./assets/images/user-2.png" alt="" class="user-img">
+                    <h3>Michael <br> Elgort <sup>Chief Compliance Officer</sup></h3>
+                </a>
+                <ul class="social-icons">
+                    <li><a href="#" class="social-icon">
+                        <svg class="icon ic-facebook">
+                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                        </svg>
+                    </a></li>
+                    <li>
+                        <a href="#" class="social-icon">
+                            <svg class="icon ic-linkedin">
+                                <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="400">
+                <a role="button" data-toggle="popover" data-trigger="hover click" data-html="true"
+                   title="<div class='title-name'>Ruslan Gavinov</div><span class='job-position'>Chief Technology Officer</span>"
+                   data-placement="auto top"
+                   data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
+                    <img src="./assets/images/user-3.png" alt="" class="user-img">
+                    <h3>Ruslan <br> Gavinov <sup>Chief Technology Officer</sup></h3>
+                </a>
+                <ul class="social-icons">
+                    <li><a href="#" class="social-icon">
+                        <svg class="icon ic-facebook">
+                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                        </svg>
+                    </a></li>
+                    <li>
+                        <a href="#" class="social-icon">
+                            <svg class="icon ic-linkedin">
+                                <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul> ADVISORS end -->
+
+        <!-- ESCROW start
+       <h2 data-aos="fade-up">Escrow</h2>
+       <ul class="team-list flex">
+           <li data-aos="fade-up">
+               <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
+                  title="<div class='title-name'>Eugene Green</div><span class='job-position'>Chief Technology Officer</span>"
+                  data-placement="auto top"
+                  data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
+                   <img src="./assets/images/user-1.png" alt="" class="user-img">
+                   <h3>Eugene <br> Green <sup>Chief Executive Officer</sup></h3>
+               </a>
+               <ul class="social-icons">
+                   <li><a href="#" class="social-icon">
+                       <svg class="icon ic-facebook">
+                           <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                       </svg>
+                   </a></li>
+                   <li>
+                       <a href="#" class="social-icon">
+                           <svg class="icon ic-linkedin">
+                               <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                           </svg>
+                       </a>
+                   </li>
+               </ul>
+           </li>
+           <li data-aos="fade-up" data-aos-delay="200">
+               <a role="button" data-toggle="popover" data-trigger="hover" data-html="true"
+                  title="<div class='title-name'>Michael Elgort</div><span class='job-position'>Chief Technology Officer</span>"
+                  data-placement="auto top"
+                  data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
+                   <img src="./assets/images/user-2.png" alt="" class="user-img">
+                   <h3>Michael <br> Elgort <sup>Chief Compliance Officer</sup></h3>
+               </a>
+               <ul class="social-icons">
+                   <li><a href="#" class="social-icon">
+                       <svg class="icon ic-facebook">
+                           <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                       </svg>
+                   </a></li>
+                   <li>
+                       <a href="#" class="social-icon">
+                           <svg class="icon ic-linkedin">
+                               <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                           </svg>
+                       </a>
+                   </li>
+               </ul>
+           </li>
+           <li data-aos="fade-up" data-aos-delay="400">
+               <a role="button" data-toggle="popover" data-trigger="hover click" data-html="true"
+                  title="<div class='title-name'>Ruslan Gavinov</div><span class='job-position'>Chief Technology Officer</span>"
+                  data-placement="auto top"
+                  data-content="<p>Wish Finance business model is designed to provide SMEs and especially merchants with short term funding they need to expand the business or use as a workflow capital in daily routine. We take maximum out of modern digital technologies to minimize risks of lending and making our contribution into cashless future.</p><p>Only SMEs who are getting paid by cashless methods like bank cards, Apple Pay, Android Pay and other via POS terminals are able to get a loan from Wish Finance. We use real transactional data to understand how business is going and score our risks as a lender.</p>">
+                   <img src="./assets/images/user-3.png" alt="" class="user-img">
+                   <h3>Ruslan <br> Gavinov <sup>Chief Technology Officer</sup></h3>
+               </a>
+               <ul class="social-icons">
+                   <li><a href="#" class="social-icon">
+                       <svg class="icon ic-facebook">
+                           <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                       </svg>
+                   </a></li>
+                   <li>
+                       <a href="#" class="social-icon">
+                           <svg class="icon ic-linkedin">
+                               <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                           </svg>
+                       </a>
+                   </li>
+               </ul>
+           </li>
+       </ul> ESCROW end -->
+    </div>
+</section>
+<!-- PARTNERS start
+<section id="partners" class="section-partners section-wrap">
+    <h2 class="hidden-title">파트너</h2>
+    <div class="container">
+        <ul class="partners-list">
+            <li data-aos="fade-up"><img src="./assets/images/partners-1.png" alt=""></li>
+            <li data-aos="fade-up" data-aos-delay="200"><img src="./assets/images/partners-2.png" alt=""></li>
+            <li data-aos="fade-up" data-aos-delay="400"><img src="./assets/images/partners-3.png" alt=""></li>
+            <li data-aos="fade-up"><img src="./assets/images/partners-4.png" alt=""></li>
+            <li data-aos="fade-up" data-aos-delay="200"><img src="./assets/images/partners-5.png" alt=""></li>
+            <li data-aos="fade-up" data-aos-delay="400"><img src="./assets/images/partners-6.png" alt=""></li>
+            <li data-aos="fade-up"><img src="./assets/images/partners-7.png" alt=""></li>
+            <li data-aos="fade-up" data-aos-delay="200"><img src="./assets/images/partners-8.png" alt=""></li>
+            <li data-aos="fade-up" data-aos-delay="400"><img src="./assets/images/partners-9.png" alt=""></li>
+        </ul>
+    </div>
+</section> PARTNERS end-->
+
+<!-- PRESS start
+<section id="press" class="section-press section-wrap">
+    <div class="container">
+        <h2 class="hidden-title">언론</h2>
+        <div data-aos="fade-up" class="slick-slider">
+            <div class="slick-slide">
+                <img src="assets/images/nyt.png" alt="">
+                <div class="content">
+                    <p>«Serial Entrepreneur in Southeast Asia Internet industry, 2x from $0 to $100m in revenue and 2
+                        exits. CEO at Ensogo, Founder at BEECRAZY (sold for US$21mm to iBuy Group in 2013).»</p>
+                </div>
+            </div>
+            <div class="slick-slide">
+                <img src="assets/images/nyt.png" alt="">
+                <div class="content">
+                    <p>«Serial Entrepreneur in Southeast Asia Internet industry, 2x from $0 to $100m in revenue and 2
+                        exits. CEO at Ensogo, Founder at BEECRAZY (sold for US$21mm to iBuy Group in 2013).»</p>
+                </div>
+            </div>
+            <div class="slick-slide">
+                <img src="assets/images/nyt.png" alt="">
+                <div class="content">
+                    <p>«Serial Entrepreneur in Southeast Asia Internet industry, 2x from $0 to $100m in revenue and 2
+                        exits. CEO at Ensogo, Founder at BEECRAZY (sold for US$21mm to iBuy Group in 2013).»</p>
+                </div>
+            </div>
+            <div class="slick-slide">
+                <img src="assets/images/nyt.png" alt="">
+                <div class="content">
+                    <p>«Serial Entrepreneur in Southeast Asia Internet industry, 2x from $0 to $100m in revenue and 2
+                        exits. CEO at Ensogo, Founder at BEECRAZY (sold for US$21mm to iBuy Group in 2013).»</p>
+                </div>
+            </div>
+            <div class="slick-slide">
+                <img src="assets/images/nyt.png" alt="">
+                <div class="content">
+                    <p>«Serial Entrepreneur in Southeast Asia Internet industry, 2x from $0 to $100m in revenue and 2
+                        exits. CEO at Ensogo, Founder at BEECRAZY (sold for US$21mm to iBuy Group in 2013).»</p>
+                </div>
+            </div>
+            <div class="slick-slide">
+                <img src="assets/images/nyt.png" alt="">
+                <div class="content">
+                    <p>«Serial Entrepreneur in Southeast Asia Internet industry, 2x from $0 to $100m in revenue and 2
+                        exits. CEO at Ensogo, Founder at BEECRAZY (sold for US$21mm to iBuy Group in 2013).»</p>
+                </div>
+            </div>
+        </div>
+        <ul data-aos="fade-up" class="twitter-list flex">
+            <li>
+                <div class="twit-placeholder"></div>
+            </li>
+            <li>
+                <div class="twit-placeholder"></div>
+            </li>
+            <li>
+                <div class="twit-placeholder"></div>
+            </li>
+        </ul>
+        <span class="more-twitter">more on <a href="#">twitter</a></span>
+    </div>
+    <div class="join-ico-line">
+        <a href="#" class="btn btn-lg btn-red btn-join">Join ico</a>
+    </div>
+</section> PRESS end -->
+
+
+<section id="contacts" class="section-subscribe section-wrap">
+    <h2 class="hidden-title">Subscribe</h2>
+    <div class="container">
+        <header>
+            <h1 class="logo">wishfinance</h1>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#features">특징</a></li>
+                    <li><a href="#innovations">혁신</a></li>
+                    <li><a href="#audit">암호 심사</a></li>
+                    <li><a href="#roadmap-sec">로드맵</a></li>
+                    <li><a href="#ico">ICO 세부 정보</a></li>
+                    <li><a href="#team">팀</a></li>
+                    <li><a href="#partners">파트너</a></li>
+                    <li><a href="#press">언론</a></li>
+                    <li><a href="#contacts">ICO 가입</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="container">
+        <div class="subscribe-title">
+            <h2>ICO 가입</h2>
+            <p>Wish Finance ICO에 대한 최신 소식을
+            받아보려면 뉴스레터에 구독하거나
+            <a href="mailto:ico@wishfinance.com" style="color: white;">ico@wishfinance.com</a>로 메일을
+            보내십시오.
+            </p>
+        </div>
+        <form id="subscribe" action="./">
+            <div id="results"></div>
+            <div class="input-wrap">
+                <input id="email" name="email" type="email" placeholder="이메일">
+                <button type="submit" class="btn btn-default btn-grey btn-lg" id="submit">전송</button>
+            </div>
+        </form>
+        <small class="copyright">
+            <span>— &copy; 2016-2017 Wish Finance. All rights reserved. <!-- | Privacy Policy--></span>
+            <span>설립 국가: 싱가포르</span>
+            <ul class="social-links">
+
+                <li>
+                    <a href="https://www.facebook.com/wishfinance/">
+                        <svg class="icon">
+                            <use xlink:href="./assets/svg/symbols.svg#social-facebook"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company-beta/13372532/">
+                        <svg class="icon">
+                            <use xlink:href="./assets/svg/symbols.svg#social-linkedin"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://medium.com/@WishFinanceCom">
+                        <svg class="icon">
+                            <use xlink:href="./assets/svg/symbols.svg#social-medium"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/WishFinanceCom">
+                        <svg class="icon">
+                            <use xlink:href="./assets/svg/symbols.svg#social-twitter"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://t.me/wishfinance">
+                        <svg class="icon">
+                            <use xlink:href="./assets/svg/symbols.svg#social-telegram"/>
+                        </svg>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a href="#">
+                        <svg class="icon">
+                            <use xlink:href="./assets/svg/symbols.svg#social-bitcoin"/>
+                        </svg>
+                    </a>
+                </li> -->
+            </ul>
+        </small>
+        <a href="#body" class="back-to-top smooth-scroll">위로 이동</a>
+    </div>
+</section>
+
+<div class="modal fade modal-scroll" id="best-of-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <svg class="icon ic-cross">
+                <use xlink:href="./assets/svg/symbols.svg#cross"/>
+            </svg>
+        </button>
+        <div class="overflow-scroll">
+            <img src="assets/images/best-of.png" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-scroll" id="ytplayer-modal" tabindex="-1" role="dialog" data-video-id="ZbA3DZHOw4c">
+    <div class="modal-dialog">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <svg class="icon ic-cross">
+                <use xlink:href="./assets/svg/symbols.svg#cross"/>
+            </svg>
+        </button>
+        <div id="ytplayer"></div>
+    </div>
+</div>
+
+<script src="./scripts/index.js?v=1.0"></script>
+</body>
+</html>
