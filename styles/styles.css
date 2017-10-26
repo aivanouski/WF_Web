@@ -2517,7 +2517,8 @@ section:focus {
           justify-content: center;
           flex-grow: 1; } }
       .section-partners .partners-list li img {
-        max-width: 100%;
+        width: 300px;
+        
         height: auto; }
 
 .section-press {
@@ -2721,8 +2722,8 @@ section:focus {
           display: flex;
           align-items: center; }
           .section-subscribe .copyright .social-links li a svg {
-            width: 20px;
-            height: 16px;
+            width: 30px;
+            height: 30px;
             transition: fill .2s ease;
             fill: #808389; }
           .section-subscribe .copyright .social-links li a:hover svg {
