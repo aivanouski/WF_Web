@@ -29,34 +29,40 @@
                     alert("Unable to send Google Analytics data");
                 }
             });
+
+            setTimeout(function () {
+                document.location = href;
+            }, 1000);
         }
 
         $(document).ready(function () {
             $('a').on('click', function () {
-                if ($(this).attr('href').indexOf('/WishFinanceWhitepaper') == 0) {
+                var href = $(this).attr('href');
+                if (href.indexOf('/WishFinanceWhitepaper') === 0) {
                     fbq('track', 'WP');
-                    handleOutboundLinkClicks($(this).attr('href'), 'WP');
-                    return false;
+                    handleOutboundLinkClicks(href, 'WP');
                 }
-                if ($(this).attr('href').indexOf('/WishFinanceOverview') == 0) {
+                if (href.indexOf('/WishFinanceOverview') === 0) {
                     fbq('track', 'Overview');
-                    handleOutboundLinkClicks($(this).attr('href'), 'Overview');
+                    handleOutboundLinkClicks(href, 'Overview');
                     return false;
                 }
-                if ($(this).attr('href').indexOf('/join') == 0) {
+                if (href.indexOf('/join') === 0) {
                     fbq('track', 'Lead');
-                    handleOutboundLinkClicks($(this).attr('href'), 'Join');
+                    handleOutboundLinkClicks(href, 'Join');
                     return false;
                 }
             });
 
             $('.header__soc a').on('click', function () {
-                handleOutboundLinkClicks($(this).attr('href'), 'SocialLinks');
+                var href = $(this).attr('href');
+                handleOutboundLinkClicks(href, 'SocialLinks');
                 return false;
             });
 
             $('.social-icons a').on('click', function () {
-                handleOutboundLinkClicks($(this).attr('href'), 'SocialLinks');
+                var href = $(this).attr('href');
+                handleOutboundLinkClicks(href, 'SocialLinks');
                 return false;
             });
         });
