@@ -2873,6 +2873,7 @@ section:focus {
   font-weight: normal;
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .header__buttons {
